@@ -5,6 +5,8 @@
     --white: white;
     --blue: #22D4FD;
     --hover: rgb(58, 58, 58);
+    --fundo: background-image linear-gradient(97.54deg, rgb(0, 47, 82) 35.49%, rgb(50, 101, 137) 165.37%);
+
 
     --fonte-1: 'Montserrat', sans-serif;
     --fonte-2: 'Krona One', sans-serif;
@@ -15,8 +17,9 @@
 }
 
 body{
-    box-sizing: border-box;
-    background-color: var(--black);
+    
+    background-image: linear-gradient(100deg, #ADA2BC, #170232);
+    
     color: var(--white);
    }
 
@@ -100,14 +103,17 @@ body{
 }
 
 .apresentacao__imagem{
-    width: 50%;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
 }
 
 .rodape{
     color: black;
-    background-color: var(--blue);
-    padding: 24px;
+    background-color: #170232;
+ 
     text-align: center;
+    
     font-family: var(--fonte-1);
     font-size: 1.5rem;
     font-weight: 400;
